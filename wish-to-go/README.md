@@ -1,1 +1,1 @@
-# kinlen
+# WishToGo Wordpress Plugin

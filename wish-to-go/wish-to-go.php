@@ -15,12 +15,9 @@
  */
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
+if ( ! defined( 'WPINC' ) ) {                                                           // cSpell: disable-line
 	die;
 }
-
-// include "libs/class-symbolic-press.php";
-// new Symbolic_Press(__FILE__);
 
 /**
  * Currently plugin version.
@@ -29,15 +26,15 @@ if ( ! defined( 'WPINC' ) ) {
  */
 define( 'WISH_TO_GO_VERSION', '0.1.0' );
 
-class Kinlen {
+class WishToGo {
   function __construct() {
     // $endPoints = new EndPoints();
     // add_action( 'rest_api_init', array( $endPoints, 'createEndpoints' ) );
   }
 
   function enqueueAdminScripts() {
-    //  wp_enqueue_style( 'kinlenstyle', plugins_url( '/backend/css/kinlen.css', __FILE__) );
-    //  wp_enqueue_script( 'kinlenjs', plugins_url( '/backend/js/kinlen.js', __FILE__) );
+    //  wp_enqueue_style( 'a-style', plugins_url( '/backend/css/a.css', __FILE__) );
+    //  wp_enqueue_script( 'a-js', plugins_url( '/backend/js/a.js', __FILE__) );
   }
 
 	function enqueueFrontEndScripts() {
@@ -60,7 +57,7 @@ class Kinlen {
   }
 }
 
-$kinlen = new Kinlen();
-$kinlen->register();
-register_activation_hook( __FILE__, array( $kinlen, 'activate' ) );
-register_deactivation_hook( __FILE__, array( $kinlen, 'deactivate' ) );
+$wishToGo = new WishToGo();
+$wishToGo->register();
+register_activation_hook( __FILE__, array( $wishToGo, 'activate' ) );
+register_deactivation_hook( __FILE__, array( $wishToGo, 'deactivate' ) );
