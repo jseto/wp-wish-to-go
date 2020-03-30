@@ -7,8 +7,7 @@
  * Plugin URI:        https://wish-to-go.com
  * Description:       The Travel Wish List
  * Version:           0.1.0
- * Author:            Josep Seto
- * Author URI:        http://github.com/jseto
+ * Author:            Wish To Go Travel
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wish-to-go
@@ -23,7 +22,7 @@ include 'settings-page.php';
 
 /**
  * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
+ * Start at version 0.1<.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
 define( 'WISH_TO_GO_VERSION', '0.1.0' );
