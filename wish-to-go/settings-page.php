@@ -22,9 +22,9 @@ function wtg_settings_init(  ) {
 	);
 
 	add_settings_field( 
-		'wtg_setting_show_wish_counter', 
-		__( 'Show Wish Counter', 'Wish To Go' ), 
-		'wtg_setting_show_wish_counter_render', 
+		'wtg_setting_hide_wish_counter', 
+		__( 'Hide Wish Counter', 'Wish To Go' ), 
+		'wtg_setting_hide_wish_counter_render', 
 		'pluginPage', 
 		'wtg_pluginPage_section' 
 	);
@@ -41,11 +41,11 @@ function wtg_settings_init(  ) {
 }
 
 
-function wtg_setting_show_wish_counter_render(  ) { 
+function wtg_setting_hide_wish_counter_render(  ) { 
 
 	$options = get_option( 'wtg_settings' );
 	?>
-	<input type='checkbox' name='wtg_settings[wtg_setting_show_wish_counter]' <?php checked( $options['wtg_setting_show_wish_counter'], 1 ); ?> value='1'>
+	<input type='checkbox' name='wtg_settings[wtg_setting_hide_wish_counter]' <?php checked( $options['wtg_setting_hide_wish_counter'], 1 ); ?> value='1'>
 	<?php
 
 }

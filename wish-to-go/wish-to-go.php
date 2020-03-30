@@ -59,7 +59,7 @@ class WishToGo {
     add_filter( 'the_title', array( $this, 'appendWishWidgetToTitle' ), 10, 2 );
 
     $options = get_option('wtg_settings', false );
-    if ( $options && $options['wtg_setting_show_wish_counter'] ) {
+    if ( !( $options && $options['wtg_setting_hide_wish_counter'] ) ) {
       add_action( 'wp_footer', array( $this, 'appendWishCounterToContent' ), 10, 2 );
     }
     
