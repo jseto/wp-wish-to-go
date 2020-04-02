@@ -4,10 +4,10 @@
  * @package           WishToGo
  *
  * Plugin Name:       Wish To Go
- * Plugin URI:        https://wish-to-go.com
  * Description:       The Travel Wish List
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            Wish To Go Travel
+ * Author URI:        https://wish-to-go.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wish-to-go
@@ -25,7 +25,7 @@ include 'settings-page.php';
  * Start at version 0.1<.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'WISH_TO_GO_VERSION', '0.1.0' );
+define( 'WISH_TO_GO_VERSION', '0.1.1' );
 
 class WishToGo {
   function __construct() {
