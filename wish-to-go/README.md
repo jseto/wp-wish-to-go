@@ -1,4 +1,4 @@
-# Wish To Go Travel Blog Bucket List
+# Travel Bucket List - Wish To Go 
 
 Contributors: @jseto
 Author: Wish To Go Travel
@@ -9,7 +9,7 @@ Tested up to: 5.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Wish to go for Travel Bloggers installs a Travel Bucket List and a Trip Planner for your readers
+Wish to go is a Travel Blog plugin that installs a Travel Bucket List and a Trip Planner for your readers
 
 ## Description
 
@@ -19,52 +19,23 @@ The readers, once they have build up a destination wish list and are ready to tr
 
 Wish To Go can help Travel Bloggers in several ways:
 
-- **Engage visitors as it is offering an added value**
+### Engage visitors as it is offering an added value
 	
-	The plugin installs the wish list and the trip planner as a feature of their blog. Readers do not have to leave the blog to use them.
+The plugin installs the wish list and the trip planner as a feature of their blog. Readers do not have to leave the blog to use them.
 
-- **Low friction reader's email acquisition**
+### Low friction reader's email acquisition
  
-	Readers understand that, to have a private wish list, they have to enter some kind of user identification and the email sounds as the natural choice. No need to offer free travel guides or other stuff to get the visitor's email.
+Readers understand that, to have a private wish list, they have to enter some kind of user identification and the email sounds as the natural choice. No need to offer free travel guides or other stuff to get the visitor's email.
 
-- **They will know when a reader is ready to travel and where**
+### They will know when a reader is ready to travel and where
 
-	When the readers start using the trip planner, it is likely they are ready to travel and spend on bookings and travel items. All marketing related efforts are more efficient at this time.
+When the readers start using the trip planner, it is likely they are ready to travel and spend on bookings and travel items. All marketing related efforts are more efficient at this time.
 
-- **The travel affiliate marketing is focused at a unique place**
+### The travel affiliate marketing is focused at a unique place
 	
-	Most affiliate conversions are lost because there is a long period of time from when the visitor reads a post and when decides to travel. When the readers are ready to travel, it's likely they will book through the trip planner because it is very easy to do it. In this way the affiliate links will be visited at the time of purchase and no cookies or unique visitors are lost.
+Most affiliate conversions are lost because there is a long period of time from when the visitor reads a post and when decides to travel. When the readers are ready to travel, it's likely they will book through the trip planner because it is very easy to do it. In this way the affiliate links will be visited at the time of purchase and no cookies or unique visitors are lost.
 
-You can find more information on my website at https://wish-to-go.com.
-
-### A Plugin to Increase Visitor Engagement
-
-Wish To Go Plugin implements a Travel Bucket List that allows your readers to add destinations in the same way you add products in a wish list.
-
-Every online store have a wish list. Why a travel blog shouldn't have one? Wish lists are an excellent tool to increase income:
-
-Attract new traffic as you offer an added value to your readers.
-Increase visitor engagement as they keep returning to check the wish list.
-Identify reader's favourite destinations and suggest other related blog entries or products.
-
-### Trip Planning Tool for Enhanced Reader's Experience
-
-To complement the Wish List, the plugin implements a Trip Planner where your readers can plan their next trip based on the destinations stored in the wish list app.
-
-Select destination from different countries.
-Synchronize Flights and destination arriving and leaving dates.
-Book and Record Hotel Bookings.
-Add Tours and Activities to do at destination.
-Sort destinations.
-Automatically calculates hotel and travel booking dates.
-
-### Relevant Advertisements to Boost Monetization
-
-Don't bloat your site with non-related adverts, readers hate it. Use a clever advertisement approach to monetize your travel site. Show ads only when the traveller is ready to buy. The Trip Planner is where affiliate marketing rocks:
-
-- Traveller can book lodging, trips and tours from the Trip Planner
-- No cookie expiration worries. Your reader will purchase immediately from the Trip Planner.
-- Don't bother your readers with spam. Target visitors only when the booking or products that you offer are relevant to them.
+You can find more information at [Wish To Go website](https://wish-to-go.com).
 
 ## Installation
 
