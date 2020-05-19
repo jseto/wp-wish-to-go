@@ -40,7 +40,7 @@ class WishToGo {
 
 	function enqueueFrontEndScripts() {
     wp_enqueue_style( 'wish-to-go-local-css', plugins_url( '/style.css', __FILE__ ) );
-		wp_register_script( 'wish-to-go-js', 'https://wish-to-go.com/wish-to-go.main.js', null, null, true );
+		wp_register_script( 'wish-to-go-js', 'https://cdn.wish-to-go.com/wish-to-go.main.js', null, null, true );
 		wp_enqueue_script( 'wish-to-go-js' );
   }
 

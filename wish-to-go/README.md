@@ -3,7 +3,7 @@
 Contributors: @jseto
 Author: Wish To Go Travel
 Author URI: https://wish-to-go.com
-Tags: travel, blog, bucket list, wish list, trip planner, itinerary, travel blog
+Tags: travel, bucket list, trip planner, travel blog, itinerary, wish list, blog
 Requires at least: 3.5.0
 Tested up to: 5.4.0
 License: GPLv2 or later
@@ -19,9 +19,9 @@ Wish To Go is a plugin for Travel Blogs that shows a heart ️❤ next to the p
 
 The readers, once they have build up a destination wish list and are ready to travel, can use the provided **Trip Planner** in the bloggers pages to make a plan for their holidays. The trip planner offers the ability to book transport, accommodation and activities using affiliate links from the trip planner itself. On paid plans, the blogger can set up their own affiliate codes.
 
-- [**Travel Blog Demo**](https://wish-to-go.com/blog). _Feel free to play with the heart button and the trip planner (bottom right heart with a number)_.
+- [**Travel Blog Demo**](https://wish-to-go.com/travel). _Feel free to play with the heart button and the trip planner (bottom right heart with a number)_.
 
-- [**Trip Planner**](https://wish-to-go.com/trip-planner). _Play with it simulating that you are planning of a trip_.
+- [**Trip Planner**](https://wish-to-go.com/travel-planner). _Play with it simulating that you are planning of a trip_.
 
 
 Wish To Go can help Travel Bloggers in several ways:
@@ -50,7 +50,7 @@ You can find more information at [Wish To Go website](https://wish-to-go.com).
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Use the Settings->Plugin Name screen to configure the plugin
 4. To show the wish heart ❤️ in the post title, fill the `country`, `city` and `activity` custom fields in the edit post page.
-5. To add a wish heart ❤️ in an arbitrary position in the post, use the `wishwidget` _shortcode_ in the form `[wishwidget country="ES" city="Barcelona" activity="Museu Dalí"]`. More details on parameters can be found at [Wish To Go website](https://wish-to-go.com/how-to-use)
+5. To add a wish heart ❤️ in an arbitrary position in the post, use the `wishwidget` _shortcode_ in the form `[wishwidget country="ES" city="Barcelona" activity="Museu Dalí"]`. More details on parameters can be found at [Wish To Go website](https://wish-to-go.com/plugin-documentation)
 6. To hide the wish counter go to the plugin settings page.
 7. To show the trip planner in the sidebar, look in the widgets area 
 
