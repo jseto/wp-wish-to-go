@@ -14,3 +14,8 @@
 .wish-to-go .badge:after {
 	box-sizing: content-box;
 }
+
+.wish-to-go .wish-to-go-on-top {
+	z-index: 1000;
+  position: absolute;
+}

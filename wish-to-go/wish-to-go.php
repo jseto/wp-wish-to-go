@@ -89,7 +89,7 @@ class WishToGo {
 
   function appendWishCounterToContent() {
     echo "
-      <div class=\"wish-to-go\">
+      <div class=\"wish-to-go wish-to-go-on-top\">
         <div class=\"stick-to-bottom\">  
           <wishcounterwidget></wishcounterwidget>
         </div>
