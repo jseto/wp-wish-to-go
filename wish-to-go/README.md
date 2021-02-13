@@ -48,11 +48,12 @@ You can find more information at [Wish To Go website](https://wish-to-go.com).
 
 1. Upload the plugin files to the `/wp-content/plugins/wish-to-go` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the _Plugins_ screen in WordPress
-3. Use the Settings->Plugin Name screen to configure the plugin
-4. To show the wish heart ❤️ in the post title, fill the `country`, `city` and `activity` custom fields in the edit post page.
-5. To add a wish heart ❤️ in an arbitrary position in the post, use the `wishwidget` _shortcode_ in the form `[wishwidget country="ES" city="Barcelona" activity="Museu Dalí"]`. More details on parameters can be found at [Wish To Go website](https://wish-to-go.com/plugin-documentation)
-6. To hide the wish counter go to the plugin settings page.
-7. To show the trip planner in the sidebar, look in the widgets area. 
+3. Follow the [step-by-step configuration guide here](https://wish-to-go.com/help/how-to-configure)
+4. Use the Settings->Plugin Name screen to configure the plugin
+5. To show the wish heart ❤️ in the post title, fill the `country`, `city` and `activity` custom fields in the edit post page.
+6. To add a wish heart ❤️ in an arbitrary position in the post, use the `wishwidget` _shortcode_ in the form `[wishwidget country="ES" city="Barcelona" activity="Museu Dalí"]`. More details on parameters can be found at [Wish To Go website](https://wish-to-go.com/plugin-documentation)
+7. To hide the wish counter go to the plugin settings page.
+8. To show the trip planner in the sidebar, look in the widgets area. 
 
 ## Screenshots
 
