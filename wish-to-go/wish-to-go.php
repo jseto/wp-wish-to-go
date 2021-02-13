@@ -5,7 +5,7 @@
  *
  * Plugin Name:       Wish To Go
  * Description:       The Travel Wish List
- * Version:           0.3.4
+ * Version:           0.4.1
  * Author:            Wish To Go Travel
  * Author URI:        https://wish-to-go.com
  * License:           GPL-2.0+

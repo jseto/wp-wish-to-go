@@ -5,17 +5,17 @@ Author: Wish To Go Travel
 Author URI: https://wish-to-go.com
 Tags: travel, bucket list, trip planner, travel blog, itinerary, wish list, blog
 Requires at least: 3.5.0
-Tested up to: 5.5
+Tested up to: 5.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Wish to go allows to bookmark Travel Blog posts and destinations and installs a Travel Bucket List and a Trip Planner for your readers
+Wish to go allows bookmarking Travel Blog posts and destinations and installs a Travel Bucket List and a Trip Planner for your readers
 
 ## Description
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WRngkBikAUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Wish To Go is a plugin for Travel Blogs that shows a heart ️❤ next to the posts headers or in the article body so your readers can bookmark destinations for future reference. The readers can click on them as they do on Instagram pictures. When the reader clicks on the heart, the destination described in the post is added to a reader's personal **Destination Wish List**. This is the same idea of Amazon _wish lists_. Wish lists feature has been implemented in Booking.com or Airbnb as well because they are a great tool for customer engagement.
+Wish To Go is a plugin for Travel Blogs that shows a heart ️❤ next to the posts headers or in the article body, so your readers can bookmark destinations for future reference. The readers can click on them as they do on Instagram pictures. When the reader clicks on the heart, the destination described in the post is added to a reader's personal **Destination Wish List**. This is the same idea of Amazon _wish lists_. Wish lists feature has been implemented in Booking.com or Airbnb as well because they are a great tool for customer engagement.
 
 The readers, once they have build up a destination wish list and are ready to travel, can use the provided **Trip Planner** in the bloggers pages to make a plan for their holidays. The trip planner offers the ability to book transport, accommodation and activities using affiliate links from the trip planner itself. On paid plans, the blogger can set up their own affiliate codes.
 
@@ -40,7 +40,7 @@ When the readers start using the trip planner, it is likely they are ready to tr
 
 ### Optimize Booking Affiliate Conversion
 	
-Most affiliate conversions are lost because there is a long period of time from when the visitor reads a post and when decides to travel. When the readers are ready to travel, it's likely they will book through the trip planner because it is very easy to do it. In this way the affiliate links will be visited at the time of purchase and no cookies or unique visitors are lost.
+Most affiliate conversions are lost because there is a long period of time from when the visitor reads a post and when he decides to travel. When the readers are ready to travel, it's likely they will book through the trip planner because it is very easy to do it. In this way the affiliate links will be visited at the time of purchase and no cookies or unique visitors are lost.
 
 You can find more information at [Wish To Go website](https://wish-to-go.com).
 
@@ -53,7 +53,7 @@ You can find more information at [Wish To Go website](https://wish-to-go.com).
 5. To show the wish heart ❤️ in the post title, fill the `country`, `city` and `activity` custom fields in the edit post page.
 6. To add a wish heart ❤️ in an arbitrary position in the post, use the `wishwidget` _shortcode_ in the form `[wishwidget country="ES" city="Barcelona" activity="Museu Dalí"]`. More details on parameters can be found at [Wish To Go website](https://wish-to-go.com/plugin-documentation)
 7. To hide the wish counter go to the plugin settings page.
-8. To show the trip planner in the sidebar, look in the widgets area. 
+8. To show the trip planner in the sidebar, look in the widgets' area. 
 
 ## Screenshots
 
