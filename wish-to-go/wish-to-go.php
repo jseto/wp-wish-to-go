@@ -28,7 +28,10 @@ include 'settings-page.php';
 define( 'WISH_TO_GO_VERSION', '0.3.4' );
 
 class WishToGo {
+  private string $localeMeta;
+
   function __construct() {
+    $this->localeMeta = "";
   }
 
   function enqueueAdminScripts() {
@@ -59,6 +62,11 @@ class WishToGo {
     if ( !( $options && $options['wtg_setting_hide_wish_counter'] ) ) {
       add_action( 'wp_footer', array( $this, 'appendWishCounterToContent' ), 10, 2 );
     }
+
+    if ( $options && $options['wtg_setting_locale'] ) {
+      $this->localeMeta = $options['wtg_setting_locale'];
+      add_action( 'wp_head', array( $this, 'appendLocaleMeta' ), 10, 2 );
+    }
     
     $this->registerShortCodes();
   }
@@ -85,6 +93,12 @@ class WishToGo {
     }
 
     return "<wishwidget $att></wishwidget>";
+  }
+
+  function appendLocaleMeta( $locale ) {
+    echo "
+      <meta name=\"wish-to-go-locale\" content=\"$this->localeMeta\" />
+    ";
   }
 
   function appendWishCounterToContent() {
