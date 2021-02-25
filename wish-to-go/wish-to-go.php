@@ -5,7 +5,7 @@
  *
  * Plugin Name:       Wish To Go
  * Description:       The Travel Wish List
- * Version:           0.4.1
+ * Version:           0.5.0
  * Author:            Wish To Go Travel
  * Author URI:        https://wish-to-go.com
  * License:           GPL-2.0+
@@ -73,6 +73,9 @@ class WishToGo {
 
   function registerShortCodes() {
     add_shortcode('wishwidget', array( $this, 'wishWidget' ) );
+    add_shortcode('travelplanwidget', array( $this, 'travelPlanWidget' ) );
+    add_shortcode('wishcounterwidget', array( $this, 'wishCounterWidget' ) );
+    add_shortcode('sharetripwidget', array( $this, 'shareTripWidget' ) );
   }
 
   function settings_menu( $links ) {
@@ -84,6 +87,30 @@ class WishToGo {
   }
 
   function wishWidget( $attributes = [], $content = null, $tag = '' ) {
+    $att = $this->attributesToString( $attributes );
+
+    return "<wishwidget $att></wishwidget>";
+  }
+
+  function travelPlanWidget( $attributes = [], $content = null, $tag = '' ) {
+    $att = $this->attributesToString( $attributes );
+
+    return "<travelplanwidget $att></travelplanwidget>";
+  }
+
+  function wishCounterWidget( $attributes = [], $content = null, $tag = '' ) {
+    $att = $this->attributesToString( $attributes );
+
+    return "<wishcounterwidget $att></wishcounterwidget>";
+  }
+
+  function shareTripWidget( $attributes = [], $content = null, $tag = '' ) {
+    $att = $this->attributesToString( $attributes );
+
+    return "<sharetripwidget $att></sharetripwidget>";
+  }
+
+  function attributesToString($attributes = []) {
     $att = '';
   
     if ( $attributes ) {
@@ -92,7 +119,7 @@ class WishToGo {
       }
     }
 
-    return "<wishwidget $att></wishwidget>";
+    return $att;
   }
 
   function appendLocaleMeta( $locale ) {
