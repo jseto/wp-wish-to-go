@@ -124,7 +124,7 @@ class WishToGo {
 
   function appendLocaleMeta( $locale ) {
     echo "
-      <meta name=\"wish-to-go-locale\" content=\"$this->localeMeta\" />
+      <meta name=\"wtg-locale\" content=\"$this->localeMeta\" />
     ";
   }
 
