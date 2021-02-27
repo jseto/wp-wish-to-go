@@ -37,6 +37,14 @@ function wtg_settings_init(  ) {
 		'wtg_pluginPage_section' 
 	);
 
+	add_settings_field( 
+		'wtg_setting_sign_up_redirect', 
+		__( 'Sign up redirect URL', 'Wish To Go' ), 
+		'wtg_setting_sign_up_redirect_render', 
+		'pluginPage', 
+		'wtg_pluginPage_section' 
+	);
+
 	// add_settings_field( 
 	// 	'wtg_setting_api_key', 
 	// 	__( 'API Key', 'Wish To Go' ), 
@@ -64,6 +72,15 @@ function wtg_setting_locale_render(  ) {
 	$options = get_option( 'wtg_settings' );
 	?>
 	<input type='text' name='wtg_settings[wtg_setting_locale]' value='<?php echo $options['wtg_setting_locale']; ?>'>
+	<?php
+
+}
+
+function wtg_setting_sign_up_redirect_render(  ) { 
+
+	$options = get_option( 'wtg_settings' );
+	?>
+	<input type='text' name='wtg_settings[wtg_setting_sign_up_redirect]' value='<?php echo $options['wtg_setting_sign_up_redirect']; ?>'>
 	<?php
 
 }

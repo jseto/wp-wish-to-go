@@ -5,7 +5,7 @@
  *
  * Plugin Name:       Wish To Go
  * Description:       The Travel Wish List
- * Version:           0.5.0
+ * Version:           0.5.2
  * Author:            Wish To Go Travel
  * Author URI:        https://wish-to-go.com
  * License:           GPL-2.0+
@@ -25,13 +25,14 @@ include 'settings-page.php';
  * Start at version 0.1<.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'WISH_TO_GO_VERSION', '0.3.4' );
+define( 'WISH_TO_GO_VERSION', '0.5.2' );
 
 class WishToGo {
   private string $localeMeta;
 
   function __construct() {
     $this->localeMeta = "";
+    $this->signUpRedirectMeta = "";
   }
 
   function enqueueAdminScripts() {
@@ -66,6 +67,11 @@ class WishToGo {
     if ( $options && $options['wtg_setting_locale'] ) {
       $this->localeMeta = $options['wtg_setting_locale'];
       add_action( 'wp_head', array( $this, 'appendLocaleMeta' ), 10, 2 );
+    }
+    
+    if ( $options && $options['wtg_setting_sign_up_redirect'] ) {
+      $this->signUpRedirectMeta = $options['wtg_setting_sign_up_redirect'];
+      add_action( 'wp_head', array( $this, 'appendSignUpRedirectMeta' ), 10, 2 );
     }
     
     $this->registerShortCodes();
@@ -125,6 +131,12 @@ class WishToGo {
   function appendLocaleMeta( $locale ) {
     echo "
       <meta name=\"wtg-locale\" content=\"$this->localeMeta\" />
+    ";
+  }
+
+  function appendSignUpRedirectMeta( $locale ) {
+    echo "
+      <meta name=\"wtg-sign-up-redirect\" content=\"$this->signUpRedirectMeta\" />
     ";
   }
 
